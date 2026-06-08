@@ -605,7 +605,7 @@ nav a:hover{
         margin-top: 0px;
 }
 .overlay h1{
-        font-size: 18px;
+        font-size: 40px;
         line-height: 1.2;
         padding: 0;
         margin-bottom: 5px;
@@ -613,10 +613,7 @@ nav a:hover{
 
 
 .overlay p{
-   font-size: 10px;
-        line-height: 1.4;
-        padding: 0;
-        margin-bottom: 5px;
+   display: none;
     }
     .split-section {
         flex-direction: column;
@@ -651,6 +648,7 @@ nav a:hover{
     /* gap:5px; */
     margin: auto;
     display: flex;
+    margin-bottom: 30px;
 }
 .page-content{
     flex-direction: column;
